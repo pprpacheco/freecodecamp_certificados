@@ -1,11 +1,74 @@
 body {
+  font-family: 'Poiret One', cursive;
   font-size: 20px;
   text-align: center;
-  background-color: black;
+  background: rgb(15, 15, 15);
   color: white;
+}
+
+#title {
+  font-family: 'Vampiro One', cursive;
+  font-size: 100px;
+  margin: 0;
+  color: rgb(202, 131, 0);
+}
+
+#subtitle {
+  margin-top: 0px;
+}
+
+#img-div {
+  background-color: rgb(15, 15, 15);
 }
 
 #image {
   max-width: 100%;
   height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 5%;
+}
+
+#tribute-info {
+  background-color: rgb(61, 61, 61);
+  margin-top: 50px;
+  padding-bottom: 20px;
+
+}
+
+h3 {
+  padding-top: 20px;
+  text-decoration: underline;
+}
+
+#info-gen {
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+ul {
+  text-align: left;
+  margin: 0 auto;
+}
+
+li {
+  margin: 10px;
+}
+
+#tribute-link {
+  text-decoration: none;
+  outline: none;
+}
+
+#tribute-link:link {
+  color: rgb(170, 170, 170);
+}
+
+#tribute-link:visited {
+  color: rgb(170, 170, 170);
+}
+
+#tribute-link:hover {
+  color: red;
 }
