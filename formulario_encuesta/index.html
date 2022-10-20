@@ -7,13 +7,101 @@
   <title>Formulario de inscripción</title>
 </head>
 <body>
+
   <h1 id="title">Formulario Just Voley</h1>
 
   <p id="description">Rellena el siguiente formulario para pertenecer al equipo</p>
 
-  <form id="survey-form">
-    <label for="name">Nombre:</label>
-    <input type="text" id="name" name="name" placeholder="Nombre Apellido1 Apellido2" required>
+  <form action="" id="survey-form">
+
+    <div class="form-div">
+      <label id="name-label">Nombre:</label>
+      <input type="text" id="name" name="name" placeholder="Introduce tu nombre" required>
+    </div>
+
+    <div class="form-div"></div>
+      <label id="lastname-label">Apellidos:</label>
+      <input type="text" id="lastname" name="lastname" placeholder="Introduce tus apellidos" required>
+    <div>
+
+    <div class="form-div">
+      <label id="age-label">Edad:</label>
+      <input type="number" id="age" name="age" min="16" max="50" placeholder="Edad">
+    </div>
+
+    <div class="form-div">
+      <label id="email-label">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Introduce tu Email" required>
+    </div>
+      
+    <div class="form-div">
+      <label id="dropdown-label">Rol del equipo:</label>
+      <select id="dropdown" name="dropdown">
+        <option value="1">Jugador</option>
+        <option value="2">Entrenador</option>
+        <option value="3">Jugador-Entrenador</option>
+      </select>
+    </div>
+
+    <div class="form-div">
+      <label id="radio-label">Posición en el campo:</label>
+    </div>
+
+    <div class="form-div">
+      <label id="colocador"><input type="radio" value="colocador" name="posicion">Colocador</label>
+    </div>
+
+    <div class="form-div">
+      <label id="exterior"><input type="radio" value="exterior" name="posicion">Exterior</label>
+    </div>
+
+    <div class="form-div">
+      <label id="central"><input type="radio" value="central" name="posicion">Central</label>
+    </div>
+
+    <div class="form-div">
+      <label id="opuesto"><input type="radio" value="opuesto" name="posicion">Opuesto</label>
+    </div>
+
+    <div class="form-div">
+      <label id="libero"><input type="radio" value="libero" name="posicion">Líbero</label>
+    </div>
+
+    <div class="form-div">
+      <label id="dropdown-label-2">Elige tu equipo</label>
+      <select id="dropdown-2" name="dropdown-2">
+        <option value="federado">Federado Masculino</option>
+        <option value="masculino">Afade Masculina</option>
+        <option value="femenino">Afade Femenina</option>
+        <option value="escuela">Escuela</option>
+      </select>
+    </div>
+
+    <div class="form-div">
+      <label id="checkbox">¿Qué otra posición te interesa?</label>
+    </div>
+
+    <div class="div-checkbox">
+      <label><input type="checkbox" name="rol" value="1">Colocador</label>
+    </div>
+
+    <div class="div-checkbox">
+      <label><input type="checkbox" name="rol" value="2">Exterior</label>
+    </div>
+
+    <div class="div-checkbox">
+      <label><input type="checkbox" name="rol" value="3">Central</label>
+    </div>
+
+    <div class="div-checkbox">
+      <label><input type="checkbox" name="rol" value="4">Opuesto</label>
+    </div>
+
+    <div class="div-checkbox">
+      <label><input type="checkbox" name="rol" value="5">Líbero</label>
+    </div>
+
   </form>
+
 </body>
 </html>
